@@ -7,8 +7,8 @@ from openai import OpenAI
 TELEGRAM_TOKEN = os.getenv('8568851239:AAHSva3qh2eo59ltfGVGaBSb4t8gLK-XgVI')
 OPENAI_KEY = os.getenv('Magnum')
 
-bot = telebot.TeleBot(TELEGRAM_TOKEN)
-client = OpenAI(api_key=OPENAI_KEY)
+bot = telebot.TeleBot(8568851239:AAHSva3qh2eo59ltfGVGaBSb4t8gLK-XgVI)
+client = OpenAI(api_key=Magnum)
 
 @bot.message_handler(commands=['start'])
 def start(message):
